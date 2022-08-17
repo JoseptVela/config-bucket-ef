@@ -9,7 +9,7 @@ FOREIGN KEY(idPizza ) REFERENCES pizzas (idPizza )
 
 create table detalle_pizz_pza(
 idPizza int NOT NULL,
-idPizeria int NOT NULL,
+idPizzeria int NOT NULL,
 FOREIGN KEY(idPizza ) REFERENCES pizzas( idPizza ),
-FOREIGN KEY(idPizeria ) REFERENCES pizeria (idPizeria )
+FOREIGN KEY(idPizzeria ) REFERENCES pizeria (idPizzeria )
 );
